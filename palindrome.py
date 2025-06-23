@@ -1,6 +1,5 @@
-word = input("Enter a Word: ")
-
 def palindrome():
+    word = input("Enter a Word: ")
     reversed_word=""
     for char in word:
         reversed_word= char + reversed_word

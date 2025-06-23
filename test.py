@@ -1,5 +1,5 @@
-name = "Alice"
-age = 30
+def greet(name):
+    return f"Hello, {name}!"  # returns the greeting string
 
-# Traditional way:
-print(f"Name: {name}, Age: {age}")
+message = greet("Alice")  # store the returned value in a variable
+print(message)            # print the message
